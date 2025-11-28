@@ -37,10 +37,9 @@ export default function About() {
                 className="w-16 h-16 rounded-full object-cover"
               />
             </div>
-            <h2 className="text-5xl font-bold text-gray-900">Our Holy Trinity Logo</h2>
+            <h2 className="text-5xl font-bold text-gray-900">Our Institute's Logo</h2>
             <p className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-              Our logo represents the Holy Trinity. We are called to contemplate the Most Holy Trinity and to make the love of God visible through the way we live and care for others.
-            </p>
+Our institution's logo represents the Holy Trinity. We are called to contemplate the Most Holy Trinity and to make the love of God visible through the way we live and care for others.            </p>
           </div>
         </div>
       </section>
@@ -62,12 +61,12 @@ export default function About() {
                   Our Foundation
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Unitas was started by Fr Joseph Marie Drehmanns, a Redemptorist priest, on the15th October 1942 Amsterdam. As the second World War was taking place at this time and Holland was occupied by the Germans.
+                  UNITAS was Founded by Fr Joseph Marie Drehmanns, a Redemptorist priest (Religious Priest) on the 15th October 1942 Netherland. As the second World War was taking place at this time in Amsterdam was occupied by the Germans.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Fr Drehmanns began the Institute as a retreat group whose members were known as the St Teresa of Avila Retreat Club. The members took the three Vows of Poverty, Chastity and Obedience and among themselves they were known as "Bride of Christ.                </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Fr Drehmanns himself was, for seven years, the secretary for the St Peters Mission Work in Rome at the time that Cardinal Angelo Roncalli, later, Pope John XXIII, was its chairman.
+                  Fr Drehmanns himself for seven years served as the secretary at St Peter's Mission Work. Rome at that time, Angelo Cardinal Roncalli, who later on become Pope John XXIII, who served as their chairman.
                 </p>
               </div>
               
@@ -77,7 +76,7 @@ export default function About() {
                   Our Mission
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Unitas is a Secular Institute of Consecrated life in which the members are called to devote themselves to the contemplation of the Most Holy Trinity and to make the love of God visible through the way they live and care for others.
+                  UNITAS is a Secular Institute of Consecrated life in which the members are called to devote themselves to the contemplation of the Most Holy Trinity and to make the love of God visible through the way they live and care for others.
                 </p>
               </div>
             </div>
@@ -86,7 +85,7 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-3xl transform rotate-3"></div>
               <img
                 src="/20241214_113921 (1).jpg"
-                alt="Unitas Team Members"
+                alt="UNITAS Team Members"
                 className="relative rounded-3xl shadow-2xl w-full h-96"
               />
             </div>
@@ -98,9 +97,9 @@ export default function About() {
                 <Users className="w-6 h-6 mr-3 text-purple-600" />
                 Growth and Expansion
               </h3>
-              <p className="text-gray-700 leading-relaxed mb-4">                In later years, the Institute took the name ofUNITAS' which is Latin word, for Unity. Unitas was first recognized and approved in the Archdiocese of Utrecht, Holland.
+              <p className="text-gray-700 leading-relaxed mb-4">                In later years, the Institute took the name UNITAS which is Latin, means Unity. UNITAS was first recognized and approved in the Archdiocese of Utrecht, Netherland.
               </p>
-              <p className="text-gray-700 leading-relaxed">             Since its foundation, the membership of Unitas has spread into many countries: Luxembourg, Germany, Brazil, Belgium, Tanzania and India.
+              <p className="text-gray-700 leading-relaxed">             Since its foundation, in Amsterdam Netherland, the members of UNITAS has spread into to many countries: Luxembourg, Germany, Brazil, Belgium, Tanzania and India.
               </p>
             </div>
             
@@ -109,26 +108,26 @@ export default function About() {
                 <MapPin className="w-6 h-6 mr-3 text-orange-600" />
                 Mission to Africa
               </h3>
-              <p className="text-gray-700 leading-relaxed mb-4">            Before the death of Fr Drehmanns, two Missionaries; Dr Petronella Theunissen and Maria Anna Nijkamp were asked by Fr Joseph Drehmanns to come to Africa and spread the good news.
+              <p className="text-gray-700 leading-relaxed mb-4">            Before the death of Fr Drehmanns, two Missionaries: Dr Petronella Theunissen and Maria Anna Nijkamp; were asked and commisioned by the founder Fr Jospeh to come to Tanganyika.
               </p>
-              <p className="text-gray-700 leading-relaxed">             These Missionaries arrived Tanzania in Morogoro, at Bigwa on 05/06/1962ey set up a school at Bigwa for training social workers and a dispensary.
+              <p className="text-gray-700 leading-relaxed">             These Missionaries  arrived Morogoro, Tanganyika specifically at Bigwa on the 05/06/1962. Having arrived at Bigwa, they set a focal development center for trainning social workers, Dispensary for leprosy people and kindergaten.
               </p>
             </div>
           </div>
 
           <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-12 text-white text-center">     <h3 className="text-3xl font-bold mb-6">Presence in Tanzania</h3>
             <p className="text-xl leading-relaxed mb-6 max-w-4xl mx-auto">
-              In 1997ach country became independent. In Tanzania, its members are living their mission in Morogoro, Songea, Mwanza, Dar es Salaam, Arusha and Mbulu dioceses.
+              From 1997, UNITAS as catholic concecrated institution, came up with a decision that each country should become independent. In Tanzania, UNITAS members are serving in: Morogoro, Songea, Mwanza, Dar es Salaam, Arusha and Mbulu dioceses.
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">              <div className="bg-white/10 rounded-xl p-6">
                 <Users className="w-12 h-12 mx-auto mb-4 text-white/90" />
                 <h4 className="text-xl font-semibold mb-2">Unity and Fellowship</h4>
-                <p className="text-white/80">Living in unity and fellowship</p>
+                <p className="text-white/80">Members Living in unity and fellowship</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6">
                 <Cross className="w-12 h-12 mx-auto mb-4 text-white/90" />
                 <h4 className="text-xl font-semibold mb-2">Faith</h4>
-                <p className="text-white/80">Centered on Christ's teachings</p>
+                <p className="text-white/80">Centered in Christ's teachings</p>
               </div>
               <div className="bg-white/10 rounded-xl p-6">
                 <Heart className="w-12 h-12 mx-auto mb-4 text-white/90" />

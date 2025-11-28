@@ -16,11 +16,14 @@ export default function Home() {
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">
           <div className="mb-8">
-            <img 
-              src="/Picture1.png" 
-              alt="Unitas Logo" 
-              className="w-16 h-16 mx-auto mb-6 rounded-full object-cover"
-            />
+            <div className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-white/10 backdrop-blur-sm">
+              <img 
+                src="/Picture1.png" 
+                alt="Unitas Logo" 
+                className="w-full h-full object-cover object-center"
+                style={{ objectPosition: 'center center' }}
+              />
+            </div>
           </div>
           <h1 className="text-5xl md:text-2xl font-bold mb-8 leading-tight">
             UNITAS FOR AFRICA
@@ -28,7 +31,7 @@ export default function Home() {
 
           </h1>
           <p className="text-xl md:text-2xl leading-relaxed font-light max-w-4xl">
-            We are Consecrated women called to Imitate the Life of Jesus in the World! Living amidst the people, brings hope! We are called to the contemplation of the Most Holy Trinity and to make the love of God visible through the way we live and care for
+            We are Consecrated women called to Imitate the Life of Jesus in the World! Living amidst the people, brings hope! We live and care for socially morally and spiritually.
           </p>
         </div>
       </section>
@@ -41,7 +44,7 @@ export default function Home() {
               Our Team Leaders
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meet the dedicated leaders who guide our mission and serve our community with compassion and faith.
+            These are our leaders who guide and serve our institute with unshakeable faith and mission.
             </p>
           </div>
           

@@ -1,4 +1,4 @@
-import { Target, Heart, Globe, Users, Cross, Lightbulb } from 'lucide-react';
+import { Target, Heart, Globe, Users, Cross, Lightbulb, Sparkles, MapPin } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 export default function Mission() {
@@ -6,22 +6,27 @@ export default function Mission() {
     {
       icon: Cross,
       title: "Faith",
-      description: "Deepening our relationship with the Most Holy Trinity through prayer and contemplation"
+      description: "Prayers, Liturgical celebrations and contemplation"
+    },
+    {
+      icon: Sparkles,
+      title: "Hope",
+      description: "Bring hope to those seem to dispear in their life"
     },
     {
       icon: Heart,
       title: "Love",
-      description: "Expressing God's love through our actions and presence in the community"
+      description: "Expressing God's love through our mission and presence in the community"
     },
     {
       icon: Users,
       title: "Unity",
-      description: "Living in harmony and supporting one another in our spiritual journey"
+      description: "We live unity in our mission as we serve those who are in need"
     },
     {
       icon: Globe,
-      title: "Service",
-      description: "Reaching out to serve those in need with compassion and dedication"
+      title: "Active Service",
+      description: "Through moral, spiritual and social service education and healthcare in which God's love is made visible and tangible"
     }
   ];
 
@@ -38,6 +43,23 @@ export default function Mission() {
         </div>
       </section>
 
+   {/* Charisma Statement */}
+   <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <div className="bg-blue-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+              <Lightbulb className="w-10 h-10 text-blue-600" />
+            </div>
+            <h2 className="text-4xl font-bold text-gray-900 mb-8">OUR CHARISMA</h2>
+            <div className="bg-white rounded-lg p-8 shadow-lg border-l-4 border-blue-600">
+              <p className="text-2xl font-light leading-relaxed text-gray-700">
+                Our presence in the world in imitating the life of Jesus Christ.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission Statement */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6">
@@ -48,29 +70,14 @@ export default function Mission() {
             <h2 className="text-4xl font-bold text-gray-900 mb-8">OUR MISSION</h2>
             <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-lg p-8 shadow-lg">
               <p className="text-2xl font-light leading-relaxed">
-                To imitate the love of Jesus to the World
+                To imitate the love of Jesus Christ to the World
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Charisma Statement */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <div className="bg-blue-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-              <Lightbulb className="w-10 h-10 text-blue-600" />
-            </div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-8">OUR CHARISMA</h2>
-            <div className="bg-white rounded-lg p-8 shadow-lg border-l-4 border-blue-600">
-              <p className="text-2xl font-light leading-relaxed text-gray-700">
-                Our presence in the world in imitating the life of Jesus.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+  
 
       {/* Core Values */}
       <section className="py-20 bg-white">
@@ -78,11 +85,11 @@ export default function Mission() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Core Values</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              These fundamental principles guide our daily lives and shape our ministry in the world
+              These fundamental principles guide our daily lives and shape our mission in the world
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {values.map((value, index) => (
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
                 <CardContent className="p-8 text-center">
@@ -134,7 +141,7 @@ export default function Mission() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Mission Activities</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Discover how we serve our communities through various ministries and outreach programs
+              Discover how we serve our communities through various mission and outreach programs
             </p>
           </div>
           
@@ -155,8 +162,9 @@ export default function Mission() {
                 <p className="text-gray-600 mb-4">
                   Providing quality education to children in Morogoro, nurturing their minds and spirits for a brighter future.
                 </p>
-                <div className="flex items-center text-blue-600 font-medium">
-                  <span>📍 Morogoro</span>
+                <div className="flex items-center gap-2 text-blue-600 font-medium">
+                  <MapPin className="w-4 h-4" />
+                  <span>Morogoro</span>
                 </div>
               </div>
             </div>
@@ -177,8 +185,9 @@ export default function Mission() {
                 <p className="text-gray-600 mb-4">
                   Guiding young people in their spiritual journey, helping them develop a deep and meaningful prayer life.
                 </p>
-                <div className="flex items-center text-blue-600 font-medium">
-                  <span>🙏 Spiritual Formation</span>
+                <div className="flex items-center gap-2 text-blue-600 font-medium">
+                  <MapPin className="w-4 h-4" />
+                  <span>Morogoro</span>
                 </div>
               </div>
             </div>
@@ -188,7 +197,7 @@ export default function Mission() {
               <div className="relative h-64">
                 <img 
                   src="/care.jpg" 
-                  alt="Taking care of orphan and disabled children in Dar es Salaam" 
+                  alt="Taking care of orphans and disabled children in Dar es Salaam" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -197,10 +206,11 @@ export default function Mission() {
                   Caring for Orphan and Disabled Children
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Providing love, care, and support to vulnerable children, ensuring they feel valued and cherished.
+                  Providing love, care, and support to vulnerable children that ensuring they feel valued and cherished.
                 </p>
-                <div className="flex items-center text-blue-600 font-medium">
-                  <span>📍 Dar es Salaam</span>
+                <div className="flex items-center gap-2 text-blue-600 font-medium">
+                  <MapPin className="w-4 h-4" />
+                  <span>Dar es Salaam</span>
                 </div>
               </div>
             </div>
@@ -221,30 +231,33 @@ export default function Mission() {
                 <p className="text-gray-600 mb-4">
                   Providing specialized care and support to children with special needs, helping them reach their full potential.
                 </p>
-                <div className="flex items-center text-blue-600 font-medium">
-                  <span>📍 Mwanza</span>
+                <div className="flex items-center gap-2 text-blue-600 font-medium">
+                  <MapPin className="w-4 h-4" />
+                  <span>Mwanza</span>
                 </div>
               </div>
             </div>
 
             {/* Preparing church clothes */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="relative h-64">
+              <div className="relative h-64 overflow-hidden">
                 <img 
                   src="/clothes.jpg" 
                   alt="Preparing church clothes" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
+                  style={{ objectPosition: 'center 30%' }}
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  Preparing Church Clothes
+                  Preparing Liturgical Vestments
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Creating beautiful liturgical vestments and church garments with care and devotion for worship services.
+                  Creating beautiful liturgical vestments with care and devotion for worship services.
                 </p>
-                <div className="flex items-center text-blue-600 font-medium">
-                  <span>⛪ Liturgical Ministry</span>
+                <div className="flex items-center gap-2 text-blue-600 font-medium">
+                  <MapPin className="w-4 h-4" />
+                  <span>Dar es Salaam</span>
                 </div>
               </div>
             </div>
